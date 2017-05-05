@@ -1,0 +1,13 @@
+<h1>{{mood}} Music</h1>
+<h3>Coming your way...</h3>
+<hr>
+<br>
+<br>
+
+<h5>There are currently {{happyNum}} sample songs in this mood.</h5>
+
+<div class="songList">
+	{{#happy}}
+		<p><span class='song'>{{[Track Name]}}</span> by {{Artist}}</p>
+	{{/happy}}
+</div> 
